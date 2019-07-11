@@ -1,3 +1,8 @@
+This project assumes you have downloaded a version of Visual Studio for Windows or Mac and, 
+you are able to create the file ending in '.sln' and successfully open your project in Visual Studio. 
+Follow the instructions below to create a project practicing .NET Frameworks with Visual Studio.
+The example can be found, titled projectOne.zip, in the serverSideTech_Web repository.
+
 1.
 Open Visual Studio and create a new project.
 Make sure you know the location that the folder is being created. 
@@ -66,4 +71,4 @@ the drop-down list, the submit button, the footer (as a web control)).
 The programming for this project was inserted to make the sentence of step 7 show
 with the name of the user and the selection the user did from the drop-down list.
 
-projectOne.zip can be found in the serverSideTech_Web repository.
+
