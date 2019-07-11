@@ -1,0 +1,67 @@
+1.
+Open Visual Studio and create a new project.
+Make sure you know the location that the folder is being created. 
+This new project should be to create web forms and you can use the Empty Template.
+
+2. 
+Create a New Web Form (Empty One), in the root of your new project.
+Make sure you will be using Visual C# for the programming language,
+and name this new web form (page) as firstpage.aspx.
+
+3. 
+Create a web control that will be used in your page - you can make the registration 
+of the web control at the page level or at the web.config level. 
+The name of the web control should be mycontrol.ascx and it should have a footer
+HTML5 element with a single paragraph that will have your name and Copyright c
+yourname (substitute yourname by your name) remember that there is something called
+special characters in the HTML to produce the copyright symbol).
+
+4.
+Open the firstpage.aspx and in the first div, insert a title as a heading 1 (<h1>...</h1>).
+Make this heading red and bold - you should style using CSS (and preferably you should 
+have an external). You can name your CSS file mystyle.css file.
+
+5.
+Create a new paragraph and inside that paragraph bring a Label from the Toolbox. 
+Double-click on any blank part of the firstpage.aspx (outside the dashed rectangle that 
+involves all your page - the div) and when the Code Behind page (firstpage.aspx.cs) shows up,
+type the following code:
+
+Code for C# -> Label1.Text = "This is the page for my project. Today is " +
+DateTime.Now.ToString();
+
+6.
+Give some line breaks from the label you created in step 5 and drag one 
+Textbox where the user will type his/her name. Then give two other line breaks 
+and insert a drop-down list with the following choices: 
+English, Spanish, Chinese, Other.
+
+7.
+Insert below these controls: a Submit button and program that Submit button in a way
+that when that Submit button is clicked, you will make the Label of step 5 invisible,
+the Textbox and drop-down list also invisible but you will simply show a sentence as:
+
+Dear xxx, it seems that you prefer to receive information in yyy
+
+Where xxx is the name the user typed in the Textbox and yyy is the choice that the 
+user did from the drop-down list.
+
+9.
+Make sure that when the page opens in the browser first, the Label from step 5 will be 
+shown with the sentence that came from the code behind, also you will have the Textbox
+for the user to type his/her name, the drop-down list with the options requested, the 
+Submit button but also the web control you created in step 3 as a footer for the page.
+
+10.
+When you fill out the text box in the browser, make the selection in the drop-down 
+list and click on the Submit button and you should then not see the label, neither the
+drop-down list, neither the Submit button but you should still see the heading, the footer
+and the sentence you programmed in step 7.
+
+Note:
+The folder in this project should be able to be opened in Visual Studio.
+The formatting requested includes headings, textbox, label, and button.
+The page in this project should open in a browser (showing the label, the text box, 
+the drop-down list, the submit button, the footer (as a web control)).
+The programming for this project was inserted to make the sentence of step 7 show
+with the name of the user and the selection the user did from the drop-down list.
