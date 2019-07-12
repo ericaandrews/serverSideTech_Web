@@ -1,0 +1,43 @@
+    
+This project assumes you have downloaded a version of Visual Studio for Windows or Mac and, 
+you are able to create the file ending in '.sln' and successfully open your project in Visual Studio. 
+Follow the instructions below to create a project practicing .NET Frameworks with Visual Studio.
+The example can be found, titled projectThree.zip, in the serverSideTech_Web repository.
+
+1.
+Create a new console application, with Visual Studio.
+Create a text file that will have a list of at least 10 names of people.
+This file can be a '.txt' file and it should be placed inside the Debug folder of your new console application.
+
+2.
+Create a simple program to access this file using streams. 
+First add your name to the end of this file in a new line.
+Present in the console (Command Line if running in Windows or Terminal if running in Mac)
+all the names of the file and at the end of it, in a new line, a text that would say "There are X new participants
+in the seminar" where X will be the number of lines (number of names) you read from the '.txt' file after adding 
+your name to it. The final output generate should look something as below:
+
+FirstName LastName
+FirstName LastName
+FirstName LastName
+FirstName LastName
+FirstName LastName
+FirstName LastName
+FirstName LastName
+FirstName LastName
+FirstName LastName
+FirstName LastName
+YourFirstName YourLastName
+There are 11 new participants in the seminar
+
+Note: 
+The first 10 names should already be included in the '.txt' file.
+Your name will be included via the program and the final message 
+that shows the X with the value of 11 new participants in the seminar.
+
+Note:
+The root of the application is the console application folder.
+The '.txt' file contains at least 10 names.
+The program was written using streams.
+The names are shown in the console, including the new name added to the file.
+The last message is showing with the right number of names in the '.txt' file.
