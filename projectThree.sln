@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consolehw", "consolehw\consolehw.csproj", "{410FBFA0-F8EA-44B2-AC19-7E3694F3DB4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{410FBFA0-F8EA-44B2-AC19-7E3694F3DB4C}.Debug|x86.ActiveCfg = Debug|x86
+		{410FBFA0-F8EA-44B2-AC19-7E3694F3DB4C}.Debug|x86.Build.0 = Debug|x86
+		{410FBFA0-F8EA-44B2-AC19-7E3694F3DB4C}.Release|x86.ActiveCfg = Release|x86
+		{410FBFA0-F8EA-44B2-AC19-7E3694F3DB4C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
