@@ -1,0 +1,35 @@
+1.
+Create a project and use MVC structure.
+
+2.
+The application will show a list of members of a sport club.
+The model for the Members will need to have the following:
+-MemberId which will be numeric.
+-MemberName which will be required.
+-MemberAge which should be minimum 18 and max of 65.
+-MemberTelephone which will be also required and should be of data type PhoneNumber - look 
+at the tip below with the attributes that you can use in the Model when defining the MemberTelephone:
+[Required(ErrorMessage = "Your must provide a PhoneNumber")]
+[DataType(DataType.PhoneNumber)]
+[RegularExpression(@"^\(?([0-9]{3})\)?[-.]?([0-9]{3})[-.]?([0-9]{4})$", ErrorMessage = "Not a valid Phone number")]
+
+3.
+Create the Model for Member (Member.cs file) with the attributes necessary that will then be used to validate any inputted data.
+
+4.
+Create the Controller for Member.
+Note: Controllers end by "Controller"; MemberController.cs file
+
+5.
+Create a list of at least 4 members in your Controller and then see if you can open and see the list of the 4 members
+in the browser with Edit, Details, and Delete links beside each of the members.
+
+6.
+Create the Edit action for the HttpGet and HttpPost cases, exactly like we did for the Students application and 
+create the Edit view where you should then test the validation of the attributes you set for your model.
+
+7.
+Note: When you click on the Edit link, you should be taken to the Edit view of Members and as you try to use the Save
+button, you will receive the validation error messages if trying to input data that is not valid according to the 
+attributes of validation in the Model. If all the input data is valid, clicking the Save button will take me to the 
+main page again with the list of the members.
