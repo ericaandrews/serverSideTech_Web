@@ -1,0 +1,168 @@
+This file includes the following:
+
+-Research on Tutorials, websites, blogs about VS Code
+-At least 2 features that exist in VS Code  
+-Min of 300 words.
+-References included.
+
+The Visual Studio Code website, https://code.visualstudio.com/, offers introductory videos on different features of Visual Studio Code. 
+The following are some of the video tutorials and links offered:
+ 
+Getting Started
+This tutorial helps with installation and learning the basic features of Visual Studio Code
+https://code.visualstudio.com/docs/introvideos/basics
+The outline states this tutorial assist with ‘downloading and installing Visual Studio Code’, ‘seeing an overview of the user interface,’ 
+‘installing support for your favorite programming languages’, ‘changing your keyboard shortcuts and easily migrating from editors using keybinding extensions’, 
+customizing your editor with themes, and exploring Visual Studio Code features in the Interactive Editor Playground’.
+ 
+Interactive Editor Playground - Visual Studio Code
+The ‘Interactive Editor Playground’ is located on the welcome page and introduces a step-by-step guide to ‘advanced code editing features with interactive examples’.
+The playground offers ‘advanced editing features without creating files or projects’ on Visual Studio Code.
+https://code.visualstudio.com/updates/v1_9#_interactive-playground
+ 
+ 
+Customize
+This tutorial helps with personalization through ‘settings, themes, and keybinding’ in Visual Studio Code.
+https://code.visualstudio.com/docs/introvideos/configure
+The outline states this tutorial assist with ‘changing your UI Color Theme and File Icon Theme’, ‘finding customization options in user and workspace settings’, 
+‘learning and changing keyboard shortcuts (key bindings)’, and ‘writing code faster with snippets and creating your own custom snippets’.
+ 
+Snippets - Visual Studio Code
+The summary states that ‘code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional statements.
+Many extensions of the Visual Studio Code Marketplace include snippets’. If you find one you like, install the snippet and restart Visual Studio Code. 
+After Visual Studio Code restarts the new snippet should be available.
+https://code.visualstudio.com/docs/editor/userdefinedsnippets
+Some popular extensions that include snippets in their language support include:
+ 
+
+Python
+Linting, Debugging (multi-threaded, remote),
+Intellisense, code formatting, refactoring,
+unit tests, snippets, and more
+https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python
+This extension offers feature details such as:
+IDE-like features
+Intellisense autocomplete (including PEP 484 and PEP 526 support)
+Code formatting
+Linting
+Python Interactive (Jupyter support)
+Debugging
+Unit testing
+Snippets
+Miscellaneous
+
+
+C/C++
+C/C++ IntelliSense, debugging, and code browsing
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+This preview release of the extension adds language support for C/C++ to Visual Studio Code including:
+Language Service
+Debugging
+
+
+C#
+C# for Visual Studio Code (powered by OmniSharp)
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
+This extension offers features inside Visual Studio Code such as:
+Lightweight development tools for .NET Core
+Great C# editing support, including Syntax Highlighting, IntelliSense, Go to Definition, Find All References
+Debugging support for .NET Core (CoreCLR)
+Support for project.json and csproj projects on Windows, macOS, and Linux
+
+ 
+Language Support for Java for Visual Studio Code
+Java Linting, Intellisense, formatting, refactoring, Maven/Gradle support and more
+https://marketplace.visualstudio.com/items?itemName=redhat.java
+This extension offered features such as:
+Support for code from Java 1.5 to Java 12
+Maven pom.xml project support
+Basic Gradle Java project support
+Standalone Java files support
+As-you-type reporting of parsing and compilation errors
+Code completion
+Code/Source actions / Refactoring
+Javadoc hovers
+Organize imports
+Type search
+Code outline
+Code folding
+Code navigation
+Code lens (references/implementations)
+Highlights
+Code formatting (on-type/selection/file)
+Code snippets
+Annotation processing support (automatic for Maven projects)
+ 
+ 
+Other tutorials that are offered by Visual Studio Code include:
+ 
+Using Extensions in Visual Studio Code:
+https://code.visualstudio.com/docs/introvideos/extend
+Add new features, themes and more
+Find extensions to install using the Extensions View
+Install an extension
+See features added via the Contributions tab
+See the list of Recommended Extensions
+Disable and uninstall extensions
+ 
+Code Editing in Visual Studio Code:
+https://code.visualstudio.com/docs/introvideos/codeediting
+Source code editing including features
+Emmet syntax for HTML and CSS development
+Hover over CSS elements
+Use the case of using a task
+Global find and replace, including regex search
+ESLint for JavaScript listing
+Errors and Warning output
+Multi-cursor editing
+Code folding
+Bracket matching
+Code formatting to consistently style code
+ 
+Intellisense in Visual Studio Code:
+https://code.visualstudio.com/docs/introvideos/intellisense
+How to set up IntelliSense for a JavaScript project
+IntelliSense basics
+Parameter Info
+Go To Definition
+JSON IntelliSense
+Enabling IntelliSense for other languages
+ 
+Debugging in Visual Studio Code:
+Configure and use debugging basics
+Get started with Node.js debugging in VS Code
+https://code.visualstudio.com/docs/introvideos/debugging
+Debugging that ‘just works’
+Single file debugging
+Using a launch.json configuration file
+The difference between launch and attach debug configurations
+Use Watches to inspect your programs state and variables
+ 
+Git Version Control in VS Code:
+The Basics of Git version control in Visual Studio Code
+https://code.visualstudio.com/docs/introvideos/versioncontrol
+Create a branch
+Change branches
+View diffs between two files
+Stage and clean changes
+Undo a commit
+Publish to a remote branch
+Push commits
+View git commands in Git output
+ 
+References
+https://code.visualstudio.com/
+https://code.visualstudio.com/docs/getstarted/introvideos
+https://code.visualstudio.com/docs/introvideos/basics
+https://code.visualstudio.com/updates/v1_9#_interactive-playground
+https://code.visualstudio.com/docs/introvideos/configure
+https://code.visualstudio.com/docs/editor/userdefinedsnippets
+https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
+https://marketplace.visualstudio.com/items?itemName=redhat.java
+https://code.visualstudio.com/docs/introvideos/extend
+https://code.visualstudio.com/docs/introvideos/codeediting
+https://code.visualstudio.com/docs/introvideos/intellisense
+https://code.visualstudio.com/docs/introvideos/debugging
+https://code.visualstudio.com/docs/introvideos/versioncontrol
