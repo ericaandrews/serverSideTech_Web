@@ -1,3 +1,8 @@
+This project assumes you have downloaded a version of Visual Studio for Windows or Mac and, 
+you are able to create the file ending in '.sln' and successfully open your project in Visual Studio. 
+Follow the instructions below to create a project practicing .NET Frameworks with Visual Studio.
+The example can be found, titled projectTwo.zip, in the serverSideTech_Web repository.
+
 1.
 Create a project and use MVC structure.
 
