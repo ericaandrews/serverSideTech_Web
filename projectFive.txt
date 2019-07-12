@@ -1,0 +1,41 @@
+This project assumes you have downloaded a version of Visual Studio for Windows or Mac and, 
+you are able to create the file ending in '.csproj' and successfully open your project in Visual Studio. 
+Follow the instructions below to create a project practicing .NET Frameworks with Visual Studio.
+The example can be found, titled projectFive.zip, in the serverSideTech_Web repository.
+
+1.
+Create a new console application using .NET Core via Command Line (Windows) or Terminal (Mac). 
+This application should show a message on the console to request the user to type his/her name.
+Read the system date/time - as this is not to test your C# skills, here is the code you would use to have 
+the current date/time in string format - DateTime.Now.ToString().
+
+2.
+Test the date/time string you got and depending on the time, you should present the final message to the user
+as "XYZ, user! It is now dt-time" where XYZ will be "Good morning" or "Good afternoon" depending on the time
+you read from the system. The user will be the name the user typed on the console and dt-time will be the 
+current date/time you read from the system.
+
+3.
+Go to the Command Line (Windows) or Terminal (Mac) and go to the application folder.
+Type dotnet run. 
+Results should be similar to the following:
+
+***********************************************************************************
+C:\Users\ERICA\Desktop\helloworld>cd projectFive
+C:\Users\ERICA\Desktop\helloworld\projectFive>dotnet run
+Type your name below:
+Erica 
+Good afternoon, Erica! It is now 1/1/2019 1:11:01 PM
+
+C:\Users\ERICA\Desktop\helloworld\projectFive>
+***********************************************************************************
+
+Note:
+You should see the message "Type your name below:" that the application produced.
+Type "Your Name" and as soon as ENTER (RETURN) key is pressed the final message of 
+the application is shown. The application should finish right after the last message 
+is presented without expecting the user to hit any other key.
+
+Note:
+The final message should show "Good morning" or "Good afternoon" depending on the time of
+the system where the application is running.
